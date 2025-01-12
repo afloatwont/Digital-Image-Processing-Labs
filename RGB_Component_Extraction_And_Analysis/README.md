@@ -25,25 +25,25 @@ This MATLAB script reads an image and displays its RGB components in separate su
 
 **Greyscale Algorithms:** Implements and displays the following greyscale methods:
 
-    - Average Method :
+  - Average Method :
 
-      ![](https://github.com/user-attachments/assets/877017b9-46f1-4c5f-ba78-a7e90396a7d9)
-
-
-
-    - Weighted Average Method :
-
-      ![](https://github.com/user-attachments/assets/23513d5f-1234-4683-94ea-d3fa953e75c6)
+    ![](https://github.com/user-attachments/assets/877017b9-46f1-4c5f-ba78-a7e90396a7d9)
 
 
-    - Luminosity Method :
 
-      ![](https://github.com/user-attachments/assets/a7a2d198-60b8-404f-92c7-4dbb29551dbb)
+  - Weighted Average Method :
+
+    ![](https://github.com/user-attachments/assets/23513d5f-1234-4683-94ea-d3fa953e75c6)
 
 
-    - Desaturation Method :
+  - Luminosity Method :
 
-      ![](https://github.com/user-attachments/assets/da813fe2-d44f-4c9e-847b-c3dfaa4148f9)
+    ![](https://github.com/user-attachments/assets/a7a2d198-60b8-404f-92c7-4dbb29551dbb)
+
+
+  - Desaturation Method :
+
+    ![](https://github.com/user-attachments/assets/da813fe2-d44f-4c9e-847b-c3dfaa4148f9)
 
 
 ## Author
