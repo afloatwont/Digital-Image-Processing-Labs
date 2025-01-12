@@ -23,12 +23,13 @@ This MATLAB script reads an image and displays its RGB components in separate su
 
 **RGB Splitting Output:** 
 
+  ![](https://github.com/user-attachments/assets/cd3a17ee-3266-4ffc-b9c6-35edd36d8a9a)
+
 **Greyscale Algorithms:** Implements and displays the following greyscale methods:
 
   - Average Method :
 
     ![](https://github.com/user-attachments/assets/877017b9-46f1-4c5f-ba78-a7e90396a7d9)
-
 
 
   - Weighted Average Method :
@@ -44,6 +45,9 @@ This MATLAB script reads an image and displays its RGB components in separate su
   - Desaturation Method :
 
     ![](https://github.com/user-attachments/assets/da813fe2-d44f-4c9e-847b-c3dfaa4148f9)
+
+  
+  ![](https://github.com/user-attachments/assets/b9da7222-bc45-4c05-a119-5e1f4d5c2bdb)
 
 
 ## Author
