@@ -1,3 +1,4 @@
+% Convert the image to RGB components and display them
 % Author: Ayush Ambatkar (BT22ECI005)
 clc
 clear all
