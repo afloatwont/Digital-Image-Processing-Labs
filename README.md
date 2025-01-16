@@ -10,4 +10,6 @@ Ayush Ambatkar
 - MATLAB
 
 ## Practicals So Far
-1. RGB_Component_Extraction_And_Analysis: Read an image, split it into RGB channels and convert it to grayscale
+1. RGB_Component_Extraction_And_Analysis: Read an image, split it into RGB channels and convert it to grayscale using grayscale conversion algorithms
+
+2. Histogram Equalization: Perform histogram equalization on a grayscale image 
