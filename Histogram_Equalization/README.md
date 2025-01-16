@@ -26,6 +26,7 @@ This MATLAB script performs histogram equalization on a grayscale image to enhan
 
 ## Output
 
+![](https://github.com/user-attachments/assets/3d15f8cb-4f8c-4552-8112-7f799a362b1c)
 
 ## Author
 
