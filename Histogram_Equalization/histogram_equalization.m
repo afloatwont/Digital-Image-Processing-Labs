@@ -40,12 +40,16 @@ end
 original_cdf = cumsum(histogram) / sum(histogram);
 equalized_cdf = cumsum(equalized_histogram) / sum(equalized_histogram);
 
+% Using histeq function
+newhis = histeq(gray_image);
+
 % Display results
 figure;
 subplot(3, 2, 1), imshow(image), title('Original Image');
 subplot(3, 2, 2), imshow(gray_image), title('Grayscale Image');
 subplot(3, 2, 3), bar(0:L-1, histogram), title('Original Histogram');
 subplot(3, 2, 4), imshow(equalized_image), title('Equalized Image');
+% subplot(3, 2, 4), imshow(new_his), title('histeq Image');
 subplot(3, 2, 5), bar(0:L-1, equalized_histogram), title('Equalized Histogram');
 
 % Plot cumulative histograms
