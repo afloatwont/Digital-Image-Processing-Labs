@@ -24,9 +24,38 @@ This MATLAB script performs histogram equalization on a grayscale image to enhan
 - Computes the histogram and CDF of the grayscale image.
 - Applies histogram equalization to enhance the image contrast.
 
+## Theory
+
+### Basic Concept
+Histogram equalization is a technique to enhance image contrast by effectively spreading out the most frequent intensity values in an image.
+
+### Mathematical Foundation
+For an image with L gray levels, the transformation function is: 
+
+\[ s_k = T(r_k) = (L-1) \sum_{j=0}^{k} p_r(r_j) \]
+
+where:
+- \( s_k \): Output pixel value
+- \( r_k \): Input pixel value
+- \( p_r(r_j) \): Probability of pixel value \( r_j \)
+- \( L \): Number of gray levels (typically 256)
+
+### Process Steps
+1. Calculate histogram of input image.
+2. Compute probability distribution.
+3. Calculate cumulative distribution function (CDF).
+4. Transform using normalized CDF.
+5. Map old values to new intensity values.
+
+### Benefits
+- Improves contrast.
+- Enhances detail visibility.
+- Automatic method requiring no parameters.
+- Useful for both under and over-exposed images.
+
 ## Output
 
-![](https://github.com/user-attachments/assets/3d15f8cb-4f8c-4552-8112-7f799a362b1c)
+![Output Image](https://github.com/user-attachments/assets/3d15f8cb-4f8c-4552-8112-7f799a362b1c)
 
 ## Author
 
