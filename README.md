@@ -13,3 +13,5 @@ Ayush Ambatkar
 1. RGB_Component_Extraction_And_Analysis: Read an image, split it into RGB channels and convert it to grayscale using grayscale conversion algorithms
 
 2. Histogram Equalization: Perform histogram equalization on a grayscale image 
+
+3. Bit Plane Slicing: Extract and visualize individual bit planes from a grayscale image to analyze the contribution of each bit to the overall image
